@@ -11,6 +11,5 @@ void main()
 	FragColor = 
 		mix(
 			texture(texture1, ourTexCoord),
-			texture(texture2, ourTexCoord),
-			0.5);
+      texture(texture2, ourTexCoord),0.5);
 }
