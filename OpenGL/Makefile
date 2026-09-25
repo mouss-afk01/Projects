@@ -1,8 +1,8 @@
 # Zoek naar alle mappen met de naam build in directe submappen
 BUILD_DIRS := $(wildcard */build)
+GLOB_DIRS := $(wildcard */)
 
 .PHONY: clean help
-
 # Verwijder de inhoud van alle build-mappen
 clean:
 	@echo "Bezig met het leegmaken van build-mappen..."

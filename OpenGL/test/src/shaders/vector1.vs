@@ -15,4 +15,4 @@ void main(){
 
 	ourColor = aColor;
 	ourPosition = aPos;
-};
+}

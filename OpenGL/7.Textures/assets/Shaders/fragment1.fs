@@ -21,5 +21,4 @@ void main()
 	FragColor = mix(texture(texture1, texCoord),texture(texture2, texCoord), ratio);
 	// 7.8 reverse happy face:
 	//FragColor = mix(texture(texture1, texCoord), texture(texture2, vec2(1-texCoord.s, texCoord.t)),0.2);
-	
 }
